@@ -32,15 +32,52 @@
 
 /* Vitrine flexível */
 .grade-filmes {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 24px;
 }
 
-.filme {
-    flex: 1 1 260px;
+.destaque {
+    grid-column: 1 / -1;
 }
 
+/* Classificação etária */
+.classificacao {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #1b5e20;
+    color: white;
+
+    display: grid;
+    place-items: center;
+}
+
+/* Campos do formulário */
+.grupo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 24px;
+}
+
+.campo-largo {
+    grid-column: 1 / -1;
+}
+
+/* Ajustes em telas pequenas */
+@media (max-width: 700px) {
+    .grupo {
+        grid-template-columns: 1fr;
+    }
+
+    .topo {
+        flex-direction: column;
+    }
+
+    .campo-largo {
+        grid-column: auto;
+    }
+}
 /* Cabeçalho de cada filme */
 .filme-topo {
     display: flex;
