@@ -1,1 +1,67 @@
-/* Estilos para os componentes do site CineMostra */
+/* Links dentro do conteúdo */
+main a:link {
+    color: -#bf360c;
+    text-decoration: none;
+}
+
+main a:visited {
+    color: #6a1b9a;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main a:active {
+    color: #b71c1c;
+}
+
+/* Links dos menus */
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Menu horizontal */
+.menu-horizontal ul {
+    list-style: none;
+}
+
+.menu-horizontal li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.menu-horizontal a {
+    color: white;
+}
+
+.menu-horizontal a.ativo {
+    border-bottom: 3px solid white;
+}
+
+/* Menu vertical */
+.menu-vertical ul {
+    list-style: none;
+}
+
+.menu-vertical a {
+    display: block;
+    padding: 10px 12px;
+}
+
+.menu-vertical li {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Lista de passos */
+.passos {
+    list-style: decimal-leading-zero;
+    margin-left: 20px;
+}
+
+/* Título lateral */
+.lateral > h2 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
