@@ -110,3 +110,27 @@ main section {
     background-color: #e8f5e9;
     border: 1px solid #bf360c;
 }
+.menu-horizontal a:hover {
+    opacity: 0.75;
+}
+
+.menu-vertical a:hover {
+    background-color: #eeeeee;
+}
+
+tbody tr:hover {
+    background-color: #dcedc8;
+}
+
+.filme {
+    transition: transform 0.2s;
+}
+
+.filme:hover {
+    transform: translateY(-4px);
+}
+
+label.obrigatorio::after {
+    content: "*";
+    color: red;
+}
