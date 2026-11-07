@@ -1,1 +1,12 @@
-/* Estilos para o layout do site CineMostra */
+.topo {
+    background-color: #bf360c;
+    color: white;
+    padding: 20px;
+}
+
+.rodape {
+    background-color: #bf360c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
