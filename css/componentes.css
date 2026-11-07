@@ -65,3 +65,48 @@ nav a {
     font-size: 1.1rem;
     text-transform: uppercase;
 }
+/* Tabela de sessões */
+.tabela-sessoes {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #cccccc;
+}
+
+thead {
+    background-color: #bf360c;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+/* Cartões das seções */
+main section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    padding: 20px 28px 24px 16px;
+}
+
+/* Cartões dos filmes */
+.filme {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 16px 20px;
+}
+
+.filme img {
+    max-width: 100%;
+}
+
+/* Filme em destaque */
+.destaque {
+    background-color: #e8f5e9;
+    border: 1px solid #bf360c;
+}
